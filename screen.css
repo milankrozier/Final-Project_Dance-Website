@@ -7,12 +7,21 @@ body {
 }
 
 h1 {
-    background: #D62F61;
+    background: #691D78;
     color: #EDEDED;
     margin: 0;
     padding: 20px;
     font-size: 64px;
+}
 
+.logo img  {
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+    height: auto;  
+    position: relative;
+    top: -205px;
+    background: #691D78;
 }
 
 h2 {
@@ -24,18 +33,6 @@ h2 {
     margin-right: 400px;
     text-align: center;
     max-width: 1000px;
-
-}
-
-img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    padding: 30px;
-    width: 300px;
-    height: auto;
-    margin-top: 5px;
-    margin-left: 350px;
 
 }
 
