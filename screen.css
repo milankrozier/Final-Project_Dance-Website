@@ -1,4 +1,64 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    background: #EDEDED;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 245px
+}
+
+h1 {
+    background: #D62F61;
+    color: #EDEDED;
+    margin: 0;
+    padding: 20px;
+    font-size: 64px;
+
+}
+
+h2 {
+    color: #D62F61;
+    padding: 20px;
+    font-size: 64px;
+    margin-top: 70px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    max-width: 1000px;
+
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding: 30px;
+    width: 300px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 350px;
+
+}
+
+h3 {
+    color: #353535;
+    padding: 20px;
+    margin: 0;
+    font-size: 38px;
+    margin-right: 40px;
+
+}
+
+p {
+    color: #353535;
+    padding: 20px;
+    margin: 0;
+    font-size: 30px;
+    margin-right: 250px;
+    line-height: 1.3;
+
+}
+
+div {
+position: relative;
+top: 100px;
 }
