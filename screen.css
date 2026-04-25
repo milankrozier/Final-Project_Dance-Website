@@ -66,6 +66,18 @@ h2 {
     max-width: 1000px;
 }
 
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    top: -50px;
+}
+
+.featured-products img {
+  width: 100%;
+  height: auto;
+}
+
 h3 {
     color: #353535;
     padding: 20px;
