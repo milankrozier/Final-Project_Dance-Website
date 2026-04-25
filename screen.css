@@ -237,3 +237,46 @@ img[src*="Page Bar 2.png"] {
     height: auto; 
     top: -500px;
 }
+
+
+
+.other-grid  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    top: -90px;
+}
+
+.other-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.productpage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    top: -70px;
+    right: -90px;
+}
+
+.productpage img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 150px;
+}
+
+img[src*="Product Info.png"] {
+    width: 700px;
+    height: 908px;
+}
+
+img[src*="Page Bar 3.png"] {
+    margin: 0;
+    padding: 0px;
+    top: -164px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto; 
+    top: -500px;
+}
