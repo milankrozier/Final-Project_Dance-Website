@@ -114,7 +114,22 @@ h2 {
 .featured-products img {
   width: 100%;
   height: auto;
+  margin-bottom: 150px;
 }
+
+.PB1 {
+    margin: 0;
+    padding: 0px;
+    top: -164px;
+    overflow: hidden;
+}
+
+.PB1 img  {
+    max-width: 100%;
+    height: auto; 
+    top: -500px;
+}
+
 
 h3 {
     color: #353535;
