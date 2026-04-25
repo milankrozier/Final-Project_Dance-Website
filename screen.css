@@ -14,7 +14,7 @@ body {
 
 h1 {
     background: #691D78;
-    color: #FFFFFF;
+    color: #691D78;
     margin: 0;
     padding: 20px;
     font-size: 64px;
@@ -30,10 +30,46 @@ h1 {
     background: #691D78;
 }
 
+.Search {
+    font: 64px;
+    text-align: center;
+    position: relative;
+    top: -190px;
+    margin-left:1000px;
+    overflow-x: hidden;
+}
+
+form {
+    width: 900px;
+}
+
+input[type=text] {
+    font-family: 'Inter', sans-serif;
+    width: 500px;
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    background-color: white;
+    color: #424242;
+    border: none;
+}
+
+input[type=button] {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 40px 17px 30px;
+    margin-left: -34px;
+    margin-right: 0px;
+    background-color: #D62F61;
+    color: white;
+    border: none;
+}
+
 .homecoverpage  {
     margin: 0;
     padding: 0px;
-    top: -98px;
+    top: -164px;
 }
 
 .homecoverpage img  {
@@ -46,7 +82,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    top: -50px;
+    top: -115px;
 }
 
 .cover-grid img {
@@ -56,14 +92,16 @@ h1 {
 
 h2 {
     color: #D62F61;
-    padding: 20px;
-    font-size: 64px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 400px;
     margin-right: 400px;
     text-align: center;
     max-width: 1000px;
+    position: relative;
+    bottom: 83px;
 }
 
 .featured-products {
